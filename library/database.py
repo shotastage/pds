@@ -2,8 +2,6 @@ import sqlite3
 import os
 
 
-
-
 class OnDb():
 
     database = 'random.db'
