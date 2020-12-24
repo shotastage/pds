@@ -24,4 +24,4 @@ class OnDb():
         pass
 
     def initialize(self):
-        self.db.execute('CREATE TABLE courier_meta_base(id INTEGER PRIMARY KEY AUTOINCREMENT, col STRING)')
+        self.db.execute('CREATE TABLE pds_meta_base(id INTEGER PRIMARY KEY AUTOINCREMENT, col STRING)')
