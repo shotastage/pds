@@ -10,6 +10,14 @@ before_check()
 }
 
 
+configure_shell()
+{
+    if [ ~/.bashrc ]; then
+        #s
+    fi
+}
+
+
 
 # Main
 echo

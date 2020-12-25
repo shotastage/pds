@@ -1,7 +1,7 @@
 import sys
 import enum
 import functools
-
+from typing import NoReturn
 
 
 class ArgObj():
@@ -12,16 +12,16 @@ class ArgObj():
 
 class ArgWorkflow():
     
-    usage = 'This is default usage description.'
+    usage: str = 'This is default usage description.'
 
-    usage_detail = '''
+    usage_detail: str = '''
 This is detail description area.
 If you place long description, use this field instead of usafe property.
 There are some conditions...
 
     '''
 
-    def run(): pass
+    def run() -> NoReturn: pass
 
 
 class ArgumentsParser():

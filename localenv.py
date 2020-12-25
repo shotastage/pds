@@ -1,10 +1,11 @@
 import os
-
 import locations
+
+from typing import NoReturn
 
 class LocalEnv():
 
-    def initialize(self):
+    def initialize(self) -> NoReturn:
 
         # Prepare courier store directory
         if not os.path.isdir(locations.MAIN_STORE):
@@ -12,7 +13,7 @@ class LocalEnv():
 
 class OnLocalEnv(object):
 
-    will_enter_wd = None
+    will_enter_wd: str = None
 
     def __enter__(self):
         self.will_enter_wd = os.getcwd()
