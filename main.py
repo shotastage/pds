@@ -7,7 +7,7 @@ from library.cmder import Commander
 
 from config.settings import initialize_settings
 if __name__ == '__main__':
-    print('Courier universal package manager v0.0.0')
+    print('Package Deliver System universal package manager v0.0.0')
     
     env = localenv.LocalEnv()
     env.initialize()

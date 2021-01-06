@@ -1,0 +1,9 @@
+dummmy:
+    name: dummmy
+    version: 0.0.1
+    desc: Sample dummy package for Package Deliver System
+    chksum: 256
+    hash: 933fac74a20f854ba9d261e1a67fb13da6f6f9137ad9f953780b15fbbc4b9e70
+    autoupdate: false
+    package: https://pds.com/deliver/macos/arm64/dummy.pkg
+    installer: pkg
