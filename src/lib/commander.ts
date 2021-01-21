@@ -7,6 +7,10 @@ interface CommandarResults {
 
 class Commandar {
 
+    // Superuser required?
+    sudo: boolean = false;
+
+    // Will execute commands
     commands: [string] | null;
 
     constructor(...cmds: [string]) {
