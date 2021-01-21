@@ -1,5 +1,5 @@
 
-class Packager {
+export class Packager {
 
     backendManager: PackageBackend;
 
@@ -20,11 +20,11 @@ class Packager {
     }
 }
 
-class PackageBackend {
+export class PackageBackend {
 
-    backend: string | undefined;
+    backend: string | null;
 
-    constructor(name: string | undefined) {
+    constructor(name: string | null = null) {
         this.backend = name;
     }
 
