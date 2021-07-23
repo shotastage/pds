@@ -1,25 +1,25 @@
 import { exec } from 'child_process';
 
 interface CommandarResults {
-    code: number;
-    message: string;
+  code: number;
+  message: string;
 }
 
 class Commandar {
 
-    // Superuser required?
-    sudo: boolean = false;
+  // Superuser required?
+  sudo: boolean = false;
 
-    // Will execute commands
-    commands: [string] | null;
+  // Will execute commands
+  commands: [string] | null;
 
-    constructor(...cmds: [string]) {
-        this.commands = cmds;
-    }
+  constructor(...cmds: [string]) {
+    this.commands = cmds;
+  }
 
-    exec = (): CommandarResults | void => {
-
-    }
+  exec = (): CommandarResults | void => {
+    //
+  }
 }
 
 export default Commandar;

@@ -1,17 +1,19 @@
 
-const separator = "--------------------------------------------------------------------------------------";
+const separator = '--------------------------------------------------------------------------------------';
 
 class Logger {
 
-    log = (): void => {
+  log = (): void => {
 
-    }
+  }
 
-    commit = (): void => {
+  commit = (): void => {
 
-    }
+  }
 
-    write = (...str: [string]): void => {
-        console.log();
-    }
+  write = (...str: [string]): void => {
+    console.log(str.join(' '));
+  }
 }
+
+export default Logger;
